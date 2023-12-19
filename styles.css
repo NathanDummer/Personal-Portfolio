@@ -4,14 +4,21 @@
 }
 
 body {
-    padding: 50px 70px;
+    /*padding-top: 200px;*/
     margin: 0;
-    background-color: rgb(0,42,57);
     text-align: center;
 }
 
+header {
+    background-color: rgb(0,42,57);
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    padding: 50px;
+}
+
 footer {
-    background-color: rgb(226,213,198);
+    background-color: white;
     text-align: left;
 }
 
@@ -23,7 +30,7 @@ img {
 }
 
 .projects {
-    background-color: rgb(226,213,198);
+    background-color: white;
     text-align: left;
     padding: 40px;
     line-height: 20px;
@@ -33,11 +40,12 @@ img {
 
 .ProjectIntro {
     text-align: center;
+    font-Size: 30px;
 }
 
 .AboutMe {
     padding: 40px;
-    background-color: rgb(226,213,198);
+    background-color: rgb(0,42,57);
     display: inline-block;
     font-weight: normal;
     display: flex;
@@ -46,6 +54,7 @@ img {
 .AboutMeText {
     max-width: 600px;
     line-height: 25px;
+    color: white;
 }
 
 .ThisWebsite {
@@ -54,10 +63,4 @@ img {
 
 .ProjEuler {
     max-width: 1000px;
-}
-
-.Welcome {
-    text-align: center;
-    padding: 25px;
-    background-color: rgb(226,213,198);
 }
